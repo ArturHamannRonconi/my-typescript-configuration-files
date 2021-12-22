@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  node:
+    container_name: api
+    build: .
+    restart: always
+    ports:
+      - ${PORT}:${PORT}
+      - 9229:9229
+    volumes:
+      - ./dist/:/usr/app/dist
+    environment:
+      PORT: ${PORT}
