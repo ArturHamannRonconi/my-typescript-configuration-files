@@ -52,6 +52,8 @@
       "import/order": "off",
       "import/no-self-import": "off",
       "import/no-cycle": "off",
-      "import/no-relative-packages": "off"
+      "import/no-relative-packages": "off",
+      "import/no-named-as-default": "off",
+      "import/no-named-as-default-member": "off"
     }
   }
