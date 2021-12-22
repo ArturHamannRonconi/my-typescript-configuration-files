@@ -3,3 +3,4 @@ dist/
 .vscode/
 .env
 .eslintignore
+yarn-error.log

@@ -4,7 +4,14 @@
   "author": "ArturHamannRonconi <arturhronconi@gmail.com>",
   "devDependencies": {
     "@types/node": "^17.0.2",
+    "husky": "^7.0.4",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "git-commit-msg-linter": "^3.2.8"
+  },
+  "scripts": {
+    "test": "echo test"
   }
 }
