@@ -1,0 +1,5 @@
+{
+  "src/**/*.+(js|json|ts|tsx)": [
+    "eslint"
+  ]
+}
