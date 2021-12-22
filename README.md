@@ -1,0 +1,1 @@
+## Default Configuration for starting a Typescript project
