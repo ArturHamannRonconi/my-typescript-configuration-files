@@ -1,5 +1,10 @@
 {
   "name": "my-typescript-configuration-files",
   "repository": "git@github.com:ArturHamannRonconi/my-typescript-configuration-files.git",
-  "author": "ArturHamannRonconi <arturhronconi@gmail.com>"
+  "author": "ArturHamannRonconi <arturhronconi@gmail.com>",
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
 }
