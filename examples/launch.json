@@ -10,7 +10,10 @@
       "name": "Docker: Attach to Node",
       "remoteRoot": "/usr/app",
       "port": 9229,
-      "restart": true
+      "restart": true,
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     }
   ]
 }
