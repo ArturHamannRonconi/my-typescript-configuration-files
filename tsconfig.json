@@ -8,6 +8,16 @@
     "sourceMap": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
-  }
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["./src/config/*"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "node_modules"
+  ]
 }

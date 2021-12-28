@@ -1,5 +1,5 @@
-// import { pathsToModuleNameMapper } from 'ts-jest/utils';
-// import { compilerOptions } from './tsconfig.json';
+import { pathsToModuleNameMapper } from 'ts-jest/utils';
+import { compilerOptions } from './tsconfig.json';
 
 export default {
   clearMocks: true,
@@ -12,7 +12,7 @@ export default {
   setupFiles: ['<rootDir>/jest.setup.ts'],
   coverageReporters: ['lcov', 'text-summary'],
   preset: 'ts-jest',
-  // moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
-  //   prefix: '<rootDir>/src/',
-  // }),
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
+    prefix: '<rootDir>/src/',
+  }),
 };
